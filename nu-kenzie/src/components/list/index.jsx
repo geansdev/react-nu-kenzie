@@ -10,6 +10,7 @@ const List = ({ listTransactions, setListTransactions }) => {
         <ul className="ulRenderCards">
           {listTransactions.map((card, index) => (
             <Card
+              className={card.type}
               key={index}
               description={card.description}
               value={card.value}

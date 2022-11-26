@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Trash from "../../../assets/trash.svg";
 import "./card.css";
-import { v4 as uuid } from "uuid";
 
 const Card = ({
   description,
@@ -17,7 +16,7 @@ const Card = ({
   };
 
   return (
-    <li id={id} className={type == "entrada" ? "entrada" : ""}>
+    <li id={id} className={type === "entrada" ? "entrada" : ""}>
       <div>
         <p>{description}</p>
         <p className="pTextType">{type}</p>

@@ -7,7 +7,7 @@ import "./form.css";
 const Form = () => {
   const [listTransactions, setListTransactions] = useState([
     { description: "Salário recebido", type: "entrada", value: 2500, id: 1 },
-    { description: "Conta de luz", type: "saída", value: -150, id: 2 },
+    { description: "Conta de luz", type: "saída", value: 150, id: 2 },
   ]);
 
   const [value, setValue] = useState(0);
@@ -77,10 +77,11 @@ const Form = () => {
               <select
                 name="selectValue"
                 id="selectValue"
+                defaultValue={listTransactions.value}
                 onChange={(event) => setType(event.target.value)}
               >
-                <option>Entrada</option>
-                <option>Saída</option>
+                <option value="entrada">Entrada</option>
+                <option value="saída">Saída</option>
               </select>
             </div>
           </div>

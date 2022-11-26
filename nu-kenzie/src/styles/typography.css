@@ -1,0 +1,35 @@
+h1,
+p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  color: var(--white);
+}
+
+button,
+input {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.btnBackLogin {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--color--grey--3);
+}
+
+.title.one {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+}

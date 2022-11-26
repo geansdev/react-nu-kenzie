@@ -1,0 +1,29 @@
+.divBtnFilter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  max-width: 560px;
+  width: 100%;
+  gap: 1rem;
+}
+
+@media (max-width: 960px) {
+  .divBtnFilter {
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.ulBtnFilter {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.divBtnFilter > p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color--grey-4);
+}

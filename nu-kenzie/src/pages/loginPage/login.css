@@ -1,0 +1,55 @@
+.divBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.btnLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 241px;
+  height: 48px;
+  background-color: var(--color--primary);
+  border: 2px solid var(--color--primary-2);
+  border-radius: 8px;
+}
+
+.divImg {
+  width: 50%;
+}
+
+.divImg > img {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .divBody {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .divImg {
+    width: 90%;
+  }
+
+  .divContainer {
+    width: 90%;
+  }
+
+  .btnLogin {
+    width: 100%;
+  }
+}

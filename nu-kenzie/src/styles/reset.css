@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
